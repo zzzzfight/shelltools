@@ -7,7 +7,6 @@ if [ -z "$2" ]; then
 else
 	COM="$2"
 fi
-
 #  Subfunction entry, with parameter filepath
 subCommd(){
 	# echo "filepath: $1"

@@ -1,6 +1,11 @@
 # This shell script is used to recursively 
 # traverse all files in a folder, 
 # performing an operation on each file
+# usage: traversalFile.sh [target file path]
+# You can adjust the results by changing the definition of function subCommd()
+# for example 
+#     add "echo $1 >> target.txt" in subCommd()
+# this command allows search results to be stored in target.txt
 DIR="$1"
 if [ -z "$2" ]; then
 	COM=echo
